@@ -1,0 +1,23 @@
+Loading and preparing results...
+DONE (t=2.31s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=79.24s).
+Accumulating evaluation results...
+DONE (t=4.25s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.288
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.524
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.289
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.171
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.562
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.627
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.055
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.200
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.214
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.631
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.700
+04/05 23:09:06 - mmengine - INFO - bbox_mAP_copypaste: 0.288 0.524 0.289 0.171 0.562 0.627
+04/05 23:09:07 - mmengine - INFO - Epoch(test) [3226/3226]    coco/bbox_mAP: 0.2880  coco/bbox_mAP_50: 0.5240  coco/bbox_mAP_75: 0.2890  coco/bbox_mAP_s: 0.1710  coco/bbox_mAP_m: 0.5620  coco/bbox_mAP_l: 0.6270  data_time: 0.0028  time: 0.0438
